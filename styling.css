@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
     height: 140px;
+    background-color: white;
 }
 .header>div {
     display: flex;
@@ -41,6 +42,20 @@ a {
 }
 .section-one{
     width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: end;
+}
+.section-one h2 {
+  font-size: 60.73px;
+  font-weight: 800;
+}
+.section-one p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #9e9da2;
 }
 .section-two{
     width: 50%;
@@ -48,7 +63,7 @@ a {
     justify-content: center;
 }
 .section-two>img {
-    width: 500px;
+    width: 553px;
 }
 .download-button {
   font-size: 24.6px;
@@ -75,4 +90,39 @@ a {
 .button-div{
     display: flex;
     justify-content: space-around;
+}
+.green-section {
+margin-left: 80px;
+margin-right: 80px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #75bf7a;
+  height: 166px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.green-section p {
+  font-size: 24.6px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.green-section input {
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 4.39px;
+  border: none;
+  width: 400px;
+}
+
+.green-section input:focus {
+  outline-color: #75bf7a;
+}
+.green-section > div {
+  display: flex;
+  gap: 12px;
 }
